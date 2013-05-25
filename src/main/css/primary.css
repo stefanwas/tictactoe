@@ -1,0 +1,34 @@
+#game {
+    background: #BCD;
+}
+
+table {
+    /* border-spacing: 20px; */
+    border-collapse: collapse;
+    background: white;
+}
+
+table tbody tr td {
+    border: 2px solid black;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+table tbody tr td:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+.empty {
+    background: white;
+}
+
+.x {
+    background: url("../res/x-icon-100x100px.png");
+}
+
+.o {
+    background: url("../res/o-icon-100x100px.png");
+}
