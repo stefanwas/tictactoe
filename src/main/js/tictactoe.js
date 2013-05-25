@@ -1,6 +1,7 @@
 var game = new Game();
 
 function addXMark(event) {
+
     var x = game.getX(event.target.id) - 1;
     var y = game.getY(event.target.id) - 1;
 
