@@ -1,4 +1,5 @@
 function Game() {
+
     this.isOver = false;
     this.board = new Array(3);
 
